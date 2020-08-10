@@ -29,7 +29,11 @@
     text-align: center;
     bottom: 0;
     width: 100%;
+    background: #000;
     height: 2.5rem;
+    padding: 0.5em  ;
+   
+
   }
   
   footer p {
