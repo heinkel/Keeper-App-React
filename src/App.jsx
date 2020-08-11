@@ -5,8 +5,10 @@ import Footer from "./Footer";
 import Note from "./Note";
 import notes from "./notes"
 function App(){
-    return <div> 
+    return (
+            <div> 
                 <Header />
+                <div id="list">
                 {notes.map(note => {
                     return(
                         <Note 
@@ -16,7 +18,8 @@ function App(){
                         />
                     )
                 })}
-                <Footer />
-            </div>;
+                </div>
+             <Footer />
+            </div>);
 }
 export default App;
